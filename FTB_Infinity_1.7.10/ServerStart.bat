@@ -69,7 +69,7 @@ if exist autostart.stamp (
         choice /t 1 /d y > nul
     )
     echo Starting server now
-    java -Xms1024M -Xmx2048M-server -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+UseNUMA -XX:MaxGCPauseMillis=50 -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -XX:UseSSE=3 -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+AggressiveOpts -XX:ParallelGCThreads=6 -Xincgc -Xnoclassgc -XX:LargePageSizeInBytes=4m -XX:GCPauseIntervalMillis=150 -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:SoftRefLRUPolicyMSPerMB=10000 -XX:-UseParallelGC -jar FTBServer-1.7.10-1614.jar nogui
+    java -server -Xms512M -Xmx2048M -XX:PermSize=256M -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=2 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10 -jar FTBServer-1.7.10-1614.jar nogui
     echo Server process finished
     goto :server_loop
 )
