@@ -1,0 +1,22 @@
+[11:05:22] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[11:07:19] [Server thread/INFO]: Loading properties
+[11:07:19] [Server thread/INFO]: Default game type: SURVIVAL
+[11:07:19] [Server thread/INFO]: Generating keypair
+[11:07:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:07:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:07:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:07:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:07:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:08:27] [Server thread/INFO]: Preparing level "minecraft"
+[11:08:35] [Server thread/INFO]: Preparing start region for level 0
+[11:08:36] [Server thread/INFO]: Preparing spawn area: 1%
+[11:08:39] [Server thread/INFO]: Preparing spawn area: 6%
+[11:08:40] [Server thread/INFO]: Preparing spawn area: 52%
+[11:08:41] [Server thread/INFO]: Done (14.899s)! For help, type "help" or "?"
+[11:08:41] [Server thread/INFO]: Starting GS4 status listener
+[11:08:41] [Server thread/INFO]: Starting remote control listener
+[11:08:41] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[11:08:41] [Server thread/WARN]: No rcon password set in 'F:\01Minecraft\CCIT-Minecraft-Server\FTB_Infinity_1.7.10\server.properties', rcon disabled!
+[11:10:35] [Server thread/INFO]: Gamemode already set!
+[11:10:41] [Server thread/INFO]: Available gamemodes: normal and expert
+[11:10:46] [Server Shutdown Thread/INFO]: Stopping server
